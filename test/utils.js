@@ -2,7 +2,7 @@ const supertest = require('supertest');
 const chai = require('chai');
 const _  = require('lodash');
 
-const api = supertest('http://localhost:5001');
+const api = supertest('https://meta-data-scrapper.herokuapp.com');
 
 module.exports = {
     initRequests,
