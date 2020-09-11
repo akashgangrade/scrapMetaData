@@ -1,0 +1,33 @@
+{
+    "requests": [
+      {
+        "url": "https://www.amazon.com"
+      }
+    ],
+    "error": [
+      {
+        "code": 400,
+        "requests": [
+          {
+            "url": ""
+          }
+        ],
+        "response": {
+            "message": "Please provide a URL",
+            "code": 1
+        }
+      },
+      {
+        "code": 400,
+        "requests": [
+          {
+            "url": "abc"
+          }
+        ],
+        "response": {
+            "message": "The URL provided is invalid",
+            "code": 2
+        }
+      }
+    ]
+  }
